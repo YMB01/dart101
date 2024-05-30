@@ -31,4 +31,10 @@ void main() {
   // Non-constant expression, evaluated at run-time
   final currentTime = DateTime.now();
   print(currentTime);
+
+  // If an object isn't restricted to a single type, specify the Object type
+  Object name = 'YMB';
+  print(name);
+  name = 212;
+  print(name);
 }
