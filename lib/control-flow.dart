@@ -11,7 +11,7 @@ void main() {
   for (int i = 0; i < 5; i++) {
     print(i);
     //continue: used to skip the current iteration of a loop and continue with the next one.
-    //continue;
+    continue;
   }
 
   //while loop : A while loop evaluates the condition before the loop
@@ -21,10 +21,10 @@ void main() {
     i++;
   }
   // Do while loop : similar to the while loop, but the block of code is executed at least once before the condition is evaluated.
-  i = 0;
-  do {
-    print(i);
-  } while (i < 5);
+  // i = 0;
+  // do {
+  //   print(i);
+  // } while (i < 5);
 
   //switch-case: used to select one of several code blocks to execute based
   String command = 'OPEN';
