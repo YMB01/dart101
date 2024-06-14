@@ -30,13 +30,9 @@ void main() {
 
   //Anonymous Function
   () => 'world';
-  String firstName() {
-    return 'John';
-  }
 
-  String fullName(Function firstName) {
-    return 'My Name is $firstName';
-  }
+  //no return value
+  void value() {}
 
   // Define a callback function
   void myCallbackFunction(String message) {
